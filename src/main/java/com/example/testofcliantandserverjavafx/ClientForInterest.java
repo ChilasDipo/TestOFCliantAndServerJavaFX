@@ -33,17 +33,19 @@ public class ClientForInterest extends Application {
         tf.setAlignment(Pos.BOTTOM_RIGHT);
         tf.setMaxSize(40,20);
         paneForTextField2.setLeft(tf);
+        tf.setPromptText("Rente");
 
         TextField tf2 = new TextField();
         tf2.setAlignment(Pos.BOTTOM_RIGHT);
         tf2.setMaxSize(40,20);
         paneForTextField2.setTop(tf2);
+        tf2.setPromptText("År");
 
         TextField tf3 = new TextField();
         tf3.setAlignment(Pos.BOTTOM_LEFT);
         tf3.setMaxSize(40,20);
         paneForTextField2.setBottom(tf3);
-
+        tf3.setPromptText("Beløb");
 
 
         Button button = new Button();

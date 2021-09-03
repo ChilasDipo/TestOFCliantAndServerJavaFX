@@ -96,9 +96,9 @@ public class InterestSERVER extends Application {
 
 
 
-          String output = "";
-          // Compute area
 
+          // Compute area
+          String output = "Efter " + years + "Vil beløbet havde ændret sig til " + String.valueOf(loan * Math.pow((1+interest/100),12*years));
 
           // Send area back to the client
           outputToClient.writeUTF(output);

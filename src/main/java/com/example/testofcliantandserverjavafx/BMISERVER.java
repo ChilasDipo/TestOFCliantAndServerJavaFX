@@ -90,9 +90,9 @@ public class BMISERVER extends Application {
           // Compute area
           if (bmi < 18.5){
             output = "Your Bmi is  " + bmi + "  YOu are UnderWeight";
-          }else if(bmi > 18.6 & bmi >= 25){
+          }else if(bmi > 18.6 & bmi <= 25){
             output = "Your Bmi is  " + bmi + "  YOu are NormalWeight";
-          }else if(bmi > 26 & bmi <= 30){
+          }else if(bmi > 25 & bmi <= 30){
             output = "Your Bmi is  " + bmi + "  YOu are OverWeight";
           }else if(bmi < 31 ){
             output = "Your Bmi is  " + bmi + "  YOu are Obese";

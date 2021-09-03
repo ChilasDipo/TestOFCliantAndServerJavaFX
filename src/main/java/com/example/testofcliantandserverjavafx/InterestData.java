@@ -1,6 +1,8 @@
 package com.example.testofcliantandserverjavafx;
 
-public class InterestData {
+import java.io.Serializable;
+
+public class InterestData implements Serializable {
     private double interest, years,Loan;
 
     public double getInterest() {
